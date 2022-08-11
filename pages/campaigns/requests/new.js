@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Message, Input, Button } from 'semantic-ui-react';
-import Campaing from '../../../ethereum/campaign';
+import Campaign from '../../../ethereum/campaign';
 import web3 from '../../../ethereum/web3';
 import { Link, Router } from '../../../routes';
 import Layout from '../../../components/Layout';
@@ -24,7 +24,7 @@ class RequestNew extends Component {
         
 
         this.setState({ loading: true, errorMsg: '' });
-        const campaign = Campaing(this.props.address);
+        const campaign = Campaign(this.props.address);
 
         const { value, description, recipient } = this.state;
         
