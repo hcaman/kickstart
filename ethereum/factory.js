@@ -1,5 +1,5 @@
 import web3 from './web3';
-import env from '../env';
+import { env } from 'process';
 import CampaignFactory from './build/CampaignFactory.json';
 
 const instance = new web3.eth.Contract(

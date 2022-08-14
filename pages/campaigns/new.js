@@ -52,5 +52,4 @@ class CampaignNew extends Component {
     }
 }
 
-
 export default CampaignNew;

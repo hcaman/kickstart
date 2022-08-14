@@ -1,5 +1,5 @@
 import Web3 from "web3";
-import env from '../env';
+import { env } from 'process';
 let web3;
  
 if (typeof window !== "undefined" && typeof window.ethereum !== "undefined") {
