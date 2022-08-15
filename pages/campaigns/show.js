@@ -46,7 +46,7 @@ class CampaignShow extends Component {
             {
                 header: requestsCount,
                 meta: 'Number of Request',
-                description: 'A request tries to withdraw money from the contract. Resquest must be approved by the approvers.'
+                description: 'A request tries to withdraw money from the contract. Requests must be approved by approvers'
             },
             {
                 header: approversCount,
