@@ -1,12 +1,14 @@
-const env = require('../env');
+const dotenv = require('dotenv');
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
+const keys = dotenv.config().parsed;
+
 const provider = new HDWalletProvider(
-  env.ETH_MNEMONIC,
+  keys.ETH_MNEMONIC,
   // remember to change this to your own phrase!
-  env.ETH_ENDPOINT
+  keys.ETH_ENDPOINT
   // remember to change this to your own endpoint!
 );
 const web3 = new Web3(provider);
