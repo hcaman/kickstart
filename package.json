@@ -2,6 +2,7 @@
   "name": "kickstartprojects",
   "description": "This app can help users to create and develop an idea getting contributors",
   "author": "Hugo Carrizo Manzoni",
+  "license": "GNU GPLv3",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
