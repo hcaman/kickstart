@@ -15,7 +15,7 @@ I create this app using **Solidity** for handle the **smarts contracts**, **Next
 
 ## Install and Run the Project :computer
 
-1. Clone the project and open inside a code editor.
+1. Clone the project, run the command `npm install` and open inside a code editor.
 
 2. Create `.env` or `.env.local` file. Inside you must setup the keys with the correct credentials: 
 * `ETH_MNEMONIC` (your own phrase with the 12 words of your wallet) 
